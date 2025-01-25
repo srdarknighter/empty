@@ -6,7 +6,7 @@
       "use": "@vercel/python"
     },
     {
-      "src": "students.json",
+      "src": "q-vercel-python.json",
       "use": "@vercel/static"
     }
   ],
