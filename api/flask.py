@@ -4,7 +4,7 @@ import json
 app = Flask(__name__)
 
 # Load the JSON data
-with open('students.json', 'r') as file:
+with open('q-vercel-python.json', 'r') as file:
     students = json.load(file)
 
 @app.route('/api')
